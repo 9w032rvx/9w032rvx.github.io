@@ -5,7 +5,7 @@ set username "9w032rvx"
 set passwd "8^g%0316"
 
 spawn git add *
-spawn git commit -m -a "1"
+spawn git commit -a -m "1"
 spawn git push https://github.com/9w032rvx/9w032rvx.github.io.git master
 expect {
     "*Username*" {
